@@ -1,9 +1,13 @@
 {
-  "name": "@hexlet/code",
+  "name": "@hexlet/frontend-project-lvl1",
   "version": "1.0.0",
   "description": "first project",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "main": "index.js",
   "type": "module",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
