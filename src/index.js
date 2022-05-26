@@ -11,7 +11,7 @@ const gamelogic = (rules, gameCondition) => {
     const [askQuestion, correctAnswer] = gameCondition();
     console.log(`Question: ${askQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (Number(userAnswer) === correctAnswer) {
+    if (userAnswer === correctAnswer) {
       console.log('Correct!');
       counter += 1;
     } else if (userAnswer !== correctAnswer) {

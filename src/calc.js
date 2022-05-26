@@ -18,7 +18,7 @@ const gameCondition = () => {
     askQuestion = `${a} * ${b}`;
     correctAnswer = a * b;
   }
-  return [askQuestion, Number(correctAnswer)];
+  return [askQuestion, String(correctAnswer)];
 };
 
 export default () => {
