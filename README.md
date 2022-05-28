@@ -6,8 +6,14 @@
 
 [![linter](https://github.com/lasogno/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/lasogno/frontend-project-lvl1/actions/workflows/lint.yml)
 
+Brain-even demo
 [![asciicast](https://asciinema.org/a/mXRdqFlhdYPVQXS0fGkaXqbJO.svg)](https://asciinema.org/a/mXRdqFlhdYPVQXS0fGkaXqbJO)
 
+Brain-calc demo
 [![asciicast](https://asciinema.org/a/Iv1ecwsKpjeZheZfzqujgzw0v.svg)](https://asciinema.org/a/Iv1ecwsKpjeZheZfzqujgzw0v)
 
+Brain-gcd demo
 [![asciicast](https://asciinema.org/a/xiausa6CHJLJeVwde3nQMnTUF.svg)](https://asciinema.org/a/xiausa6CHJLJeVwde3nQMnTUF)
+
+Brain-progression demo
+[![asciicast](https://asciinema.org/a/wher50x0cV2mcRnMKsHu7jwsL.svg)](https://asciinema.org/a/wher50x0cV2mcRnMKsHu7jwsL)
