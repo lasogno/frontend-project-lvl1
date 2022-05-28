@@ -1,11 +1,12 @@
 import gamelogic from './index.js';
+import getRandomNumber from './utils.js';
 
 const gameCondition = () => {
-  const a = Math.floor(Math.random() * 50 + 1);
-  const b = Math.floor(Math.random() * 50 + 1);
+  const a = getRandomNumber(1, 25);
+  const b = getRandomNumber(1, 25);
   let askQuestion = '';
   let correctAnswer = 0;
-  const randomSign = Math.floor(Math.random() * 3 + 1);
+  const randomSign = getRandomNumber(1, 3);
   if (randomSign === 1) {
     askQuestion = `${a} + ${b}`;
     correctAnswer = a + b;

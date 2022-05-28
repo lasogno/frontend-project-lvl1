@@ -1,9 +1,10 @@
 import _ from 'lodash';
 import gamelogic from './index.js';
+import getRandomNumber from './utils.js';
 
 const gameCondition = () => {
-  const a = Math.floor(Math.random() * 50 + 1);
-  const b = Math.floor(Math.random() * 50 + 1);
+  const a = getRandomNumber(1, 50);
+  const b = getRandomNumber(1, 50);
   const askQuestion = `${a} ${b}`;
   let correctAnswer = 0;
   const arrayA = [];

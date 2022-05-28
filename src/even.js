@@ -1,7 +1,8 @@
 import gamelogic from './index.js';
+import getRandomNumber from './utils.js';
 
 const gameCondition = () => {
-  const randomNumber = Math.floor(Math.random() * 50 + 1);
+  const randomNumber = getRandomNumber(1, 50);
   let askQuestion = `${randomNumber}`;
   let correctAnswer = 0;
   if (randomNumber % 2 === 0) {
