@@ -1,5 +1,5 @@
-import gamelogic from './index.js';
-import getRandomNumber from './utils.js';
+import gamelogic from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const gameCondition = () => {
   const a = getRandomNumber(1, 25);
