@@ -13,8 +13,6 @@ const gameCondition = () => {
     if (a % i === 0) {
       arrayA.push(i);
     }
-  }
-  for (let i = 0; i <= a; i += 1) {
     if (b % i === 0) {
       arrayB.push(i);
     }
