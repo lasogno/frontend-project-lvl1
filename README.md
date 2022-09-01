@@ -6,23 +6,23 @@
 
 [![linter](https://github.com/lasogno/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/lasogno/frontend-project-lvl1/actions/workflows/lint.yml)
 ##
-## Brain-games - это подборка из пяти консольных игр. Включает в себя математические игры на подсчет примера, нахождение НОД и другие.
+## Brain-games - math games like finding GCD, even or odd number and finding sum.
 
-Как запустить:
+Console commands:
 
-*  `brain-even` - для запуска игры "чётное-нечётное"
+*  `brain-even` - for 'even-odd' game
   
-*  `brain-calc` - запускает игру на подсчет суммы, разности или произведения
+*  `brain-calc` - starts a finding sum, difference or product game
   
-*  `brain-gcd` - запуск игры на нахождение НОД - наибольшего общего делителя
+*  `brain-gcd` - finding GCD game
   
-*  `brain-progression` - в этой игре нужно найти пропущенное число из прогрессии чисел
+*  `brain-progression` - in this game you should find a missing number in the given progression
   
-*  `brain-prime` - запуск игры, в которой нужно определить, простое ли число
+*  `brain-prime` - launchs a game, where you should guess if the given number is prime or not
   
 
 
-## Демонстрация геймплея:
+## Gameplay demonstration:
 
 #### Brain-even demo
 
